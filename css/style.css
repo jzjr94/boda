@@ -42,6 +42,78 @@
   box-sizing: border-box;
 }
 
+.countdown {
+  color: #f8f9fa;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.countdown span {
+  display: inline-block;
+  min-width: 70px;
+  margin: 0 10px;
+}
+
+.countdown span:first-child {
+  margin-left: 0;
+}
+
+.countdown span:last-child {
+  margin-right: 0;
+}
+
+.countdown .time-label {
+  display: block;
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  color: #e9ecef;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f0e5; /* Light brown background */
+  color: #524e4d; /* Dark brown text color */
+  padding: 20px;
+  margin: 0;
+}
+.honeymoon-fund {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff; /* White background for content */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.honeymoon-fund h2 {
+  text-align: center;
+  color: #6b4e37; /* Brown heading color */
+  margin-bottom: 20px;
+}
+.honeymoon-fund p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.instructions {
+  margin-top: 20px;
+}
+.instructions img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.instructions p {
+  text-align: left;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -2267,6 +2339,62 @@ textarea.form-control {
 .was-validated .custom-file-input:invalid:focus ~ .custom-file-label, .custom-file-input.is-invalid:focus ~ .custom-file-label {
   border-color: #dc3545;
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f0e5; /* Light brown background */
+  color: #524e4d; /* Dark brown text color */
+  padding: 20px;
+  margin: 0;
+}
+section {
+  padding: 50px 0;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  color: #6b4e37; /* Brown heading color */
+  margin-bottom: 30px;
+}
+h3 {
+  color: #6b4e37; /* Brown heading color */
+  margin-bottom: 10px;
+}
+p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+.faq-question {
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+}
+.arrow {
+  transition: transform 0.3s;
+}
+.arrow.down {
+  transform: rotate(0deg);
+}
+.arrow.up {
+  transform: rotate(180deg);
 }
 
 .form-inline {
