@@ -9932,3 +9932,17 @@ a.text-dark:hover, a.text-dark:focus {
     border-right: none !important;
   }
 }
+
+
+
+#event {
+  padding-bottom: 1rem; /* Optional: Adjust spacing as needed */
+}
+
+#rsvp {
+  padding-top: 1rem; /* Optional: Adjust spacing as needed */
+}
+
+.section-title {
+  margin-bottom: 1rem; /* Optional: Fine-tune spacing */
+}
