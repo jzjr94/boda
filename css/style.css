@@ -9946,3 +9946,12 @@ a.text-dark:hover, a.text-dark:focus {
 .section-title {
   margin-bottom: 1rem; /* Optional: Fine-tune spacing */
 }
+
+.elegant-text {
+  font-family: 'Patrick Hand', serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: inherit; /* Keep the same color as before */
+  text-align: center; /* Ensure it's centered */
+  margin-bottom: 5px; /* Add spacing between lines */
+}
